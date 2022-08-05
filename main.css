@@ -1,0 +1,126 @@
+
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Tahoma,Arial,Verdana,sans-serif;
+    letter-spacing: 1px;
+}
+body{
+    font-weight:400;
+    font-size: 16px;
+    color:#191a1b;
+    min-width:320px;
+    overflow-x: hidden;
+    /* background-color: #EDF2F4; */
+    min-height: 100vh;
+    background-image: url('images/pocetna1.jpg');
+    /* background-size: cover; */
+	background-attachment: fixed;
+}
+.container-fluid{
+    overflow: hidden;
+    }
+
+
+h2,h3{
+  font-family: 'Baloo Thambi', cursive;
+}
+/**Galerija*/
+
+.tz-gallery {
+    padding: 20px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row > div {
+    padding: 2px;
+}
+
+.img-wrapper {  
+    overflow: hidden; 
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+    padding: 5px;
+   }
+   
+   .inner-img {
+     transition: 0.3s;
+   }
+   
+   .inner-img:hover {
+     transform: scale(1.1);
+   }
+   
+   .img-wrapper {
+     display: inline-block;
+     box-sizing: border-box;
+     margin-right: 2%;
+     
+   }
+
+.tz-gallery .lightbox:hover:after,
+.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+    outline: none !important;
+}
+
+.okvir{
+  /* border:1px solid #76C893;  */
+  /* padding:2% 12% 5% 12%; */
+  background-color: white;
+   padding:2%;
+   width:80%; 
+   margin-left:10%; 
+   margin-top:4%;
+   margin-bottom:2%;
+   box-shadow: 2px 2px 7px 7px #3b3636;
+}
+
+@media screen and (max-width: 800px){
+  .okvir{
+    width:90%; 
+    margin-left:5%; 
+  }
+}
+
+.drustvenemreze{
+	width: 40px;
+	height: 40px;
+}
+.drustvenemrezef{
+	width:48px;
+	height: 48px;
+
+}
+
+
+.footer-social-icon i {
+  height: auto;
+  width: auto;
+  /* line-height: 40px; */
+  border-radius: 50%;
+  float: right;
+}
+.facebook-bg{
+  background: #3B5998;
+  margin-left: 50px;
+}
+.instagram-bg{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.p{
+  text-align: center;
+  color: darkslategray;
+}
+
+ 
+
+
+
